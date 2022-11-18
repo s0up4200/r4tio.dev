@@ -1,0 +1,152 @@
+baseURL: "https://privsec.dev"
+title: PrivSec - A practical approach to Privacy and Security
+theme: WonderMod
+copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
+enableRobotsTXT: true
+enableGitInfo: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  author: PrivSec Team
+  # author: ["Me", "You"] # multiple authors
+  description: A practical approach to Privacy and Security
+  keywords: [Privacy, Security]
+  defaultTheme: dark # dark, light
+  disableThemeToggle: false
+  images: ["/privsec.png"]
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  ShowToc: true
+  ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
+  ShowCodeCopyButtons: true
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  label:
+    text: "PrivSec"
+    icon: "/privsec.png"
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: PrivSec.dev
+    subtitle: "A practical approach to Privacy and Security"
+    buttons:
+      - name: About
+        url: about
+      - name: Code
+        url: code
+      - name: Privacy
+        url: privacy
+      - name: Donate
+        url: donate
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/PrivSec-dev"
+    - name: gitea
+      url: "https://git.tommytran.io/privsec-dev"
+    - name: matrix
+      url: "https://matrix.to/#/#privsec:arcticfoxes.net"
+    - name: twitter
+      url: "https://twitter.com/privsec_dev"
+    - name: email
+      url: "mailto:tommy@privsec.dev"
+    - name: rss
+      url: /index.xml
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  editPost:
+    URL: "https://github.com/PrivSec-dev/privsec.dev/blob/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "summary"]
+
+#Enabling Search
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+# Enable Chroma
+markup:
+    highlight:
+        style: dracula
+        lineNos: false
+        noClasses: false
+        guessSyntax: true
+
+menu:
+  main:
+    - identifier: Categories
+      name: Categories
+      url: /posts/
+      weight: 10
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: Resources
+      name: Resources
+      url: /resources
+      weight: 40
+    - identifier: PGP
+      name: PGP
+      url: https://tommytran.io/tommy.asc
+      weight: 50
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    disable: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: true
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: true
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
