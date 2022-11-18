@@ -8,7 +8,7 @@ tags: ['ssl', 'nginx', 'letsencrypt', 'njalla']
 ```bash
 #!/bin/bash
 
-# By Brett Petc
+# By Brett Petch
 
 # apt-get install -y socat
 # install acme
