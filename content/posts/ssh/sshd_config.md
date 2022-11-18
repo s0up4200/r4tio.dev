@@ -2,6 +2,7 @@
 title: "sshd_config"
 date: 2022-11-18T20:52:36+01:00
 draft: false
+tags: ['security', 'linux']
 ---
 
 Based on the one used by Grapheneos on their sites.  
