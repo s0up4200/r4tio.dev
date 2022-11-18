@@ -1,6 +1,6 @@
 baseURL: "https://soup.ch"
 title: soup - A personal encyclopedia to servers, security and privacy
-#theme: WonderMod
+theme: WonderMod
 copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
 enableRobotsTXT: true
 enableGitInfo: true
