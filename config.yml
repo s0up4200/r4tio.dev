@@ -113,10 +113,6 @@ menu:
       name: Search
       url: /search/
       weight: 30
-    - #identifier: Resources
-      #name: Resources
-      #url: /resources
-      #weight: 40
     - identifier: PGP
       name: PGP
       url: https://github.com/s0up4200.gpg
