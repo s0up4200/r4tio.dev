@@ -1,5 +1,5 @@
-baseURL: "https://privsec.dev"
-title: PrivSec - A practical approach to Privacy and Security
+baseURL: "https://soup.ch"
+title: soup - A personal encyclopedia to servers, security and privacy
 theme: WonderMod
 copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
 enableRobotsTXT: true
@@ -11,7 +11,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  author: PrivSec Team
+  author: s0up
   # author: ["Me", "You"] # multiple authors
   description: A practical approach to Privacy and Security
   keywords: [Privacy, Security]
@@ -37,35 +37,29 @@ params:
     safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: "PrivSec"
-    icon: "/privsec.png"
+    text: "s0up"
+#    icon: "/privsec.png"
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: PrivSec.dev
-    subtitle: "A practical approach to Privacy and Security"
+    title: s0up.ch
+    subtitle: "A personal encyclopedia to servers, security and privacy"
     buttons:
       - name: About
         url: about
-      - name: Code
-        url: code
-      - name: Privacy
-        url: privacy
-      - name: Donate
-        url: donate
+      #- name: Privacy
+      #  url: privacy
+      #- name: Donate
+      #  url: donate
 
   socialIcons:
     - name: github
-      url: "https://github.com/PrivSec-dev"
-    - name: gitea
-      url: "https://git.tommytran.io/privsec-dev"
-    - name: matrix
-      url: "https://matrix.to/#/#privsec:arcticfoxes.net"
-    - name: twitter
-      url: "https://twitter.com/privsec_dev"
+      url: "https://github.com/s0up4200"
+    - name: discord
+      url: "https://discordapp.com/users/913522309208371251"
     - name: email
-      url: "mailto:tommy@privsec.dev"
+      url: "mailto:soup@s0up.ch"
     - name: rss
       url: /index.xml
 
@@ -125,7 +119,7 @@ menu:
       weight: 40
     - identifier: PGP
       name: PGP
-      url: https://tommytran.io/tommy.asc
+      url: https://github.com/s0up4200.gpg
       weight: 50
 
 privacy:
