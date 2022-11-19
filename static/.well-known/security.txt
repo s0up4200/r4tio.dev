@@ -2,7 +2,7 @@
 Hash: SHA256
 
 Contact: mailto:soup@r4tio.dev
-Contact: https://matrix.to/#/@noodles:matrix.r4tio.dev
+Contact: https://matrix.to/#/@noodles:matrix.r4tio.cat
 Expires: 2023-10-10T22:07:00.000Z
 Encryption: https://r4tio.dev/pub-key.txt
 Canonical: https://r4tio.dev/.well-known/security.txt
