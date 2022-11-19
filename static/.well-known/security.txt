@@ -1,0 +1,15 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:soup@r4tio.cat
+Contact: https://matrix.to/#/@noodles:matrix.r4tio.cat
+Expires: 2023-10-10T22:07:00.000Z
+Encryption: https://r4tio.cat/pub-key.txt
+Canonical: https://r4tio.cat/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQwQAFI5UR9mrR7kmhX4ieFDE2E5QUCY3g7HgAKCRBX4ieFDE2E
+5QPiAP4uH9MUvkQcEjM3VTWd4Ax8WJY96ZfpAbj5G7G9Vfh1qAD6AzaG+pxttAqF
+Si/1JbQgUq+S8PhDq3qlaouycEyhrgM=
+=ekfI
+-----END PGP SIGNATURE-----
