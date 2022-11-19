@@ -1,5 +1,8 @@
-# s0up.ch
+# r4tio.cat
 A personal encyclopedia to servers, security and privacy.
+---
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d4ff8d90-226f-4fb4-968a-34f415eb4cb3/deploy-status)](https://app.netlify.com/sites/r4tio/deploys)
 
 ## Local Development
 
