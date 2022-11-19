@@ -44,7 +44,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: r4tio.cat
-    subtitle: "A personal encyclopedia to servers, security and privacy"
+    subtitle: "A personal encyclopedia to servers, security and privacy."
     buttons:
       - name: About
         url: about
@@ -113,6 +113,14 @@ menu:
       name: Search
       url: /search/
       weight: 30
+    - identifier: Hastebin
+      name: Bin
+      url: https://bin.r4tio.cat
+      weight: 35
+    - identifier: Upload
+      name: Send
+      url: https://send.r4tio.cat
+      weight: 40
     - identifier: PGP
       name: PGP
       url: https://github.com/s0up4200.gpg

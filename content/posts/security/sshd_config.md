@@ -53,7 +53,6 @@ MaxAuthTries 1
 #MaxSessions 10
 
 AllowUsers {{ssh_users}}
-DenyUsers root
 
 #PubkeyAuthentication yes
 
