@@ -7,7 +7,7 @@ tags: ["security", "dns", "dane", "dnssec"]
 
 ## What is DANE TLSA?
 
-    Encrypted communication on the Internet often uses Transport Layer Security (TLS), which depends on third parties to certify the keys used. This document improves on that situation by enabling the administrators of domain names to specify the keys used in that domain’s TLS servers. This requires matching improvements in TLS client software, but no change in TLS server software.
+> Encrypted communication on the Internet often uses Transport Layer Security (TLS), which depends on third parties to certify the keys used. This document improves on that situation by enabling the administrators of domain names to specify the keys used in that domain’s TLS servers. This requires matching improvements in TLS client software, but no change in TLS server software.
 
 ## How to configure DANE TLSA
 
