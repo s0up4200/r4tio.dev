@@ -115,11 +115,11 @@ menu:
       weight: 30
     - identifier: Hastebin
       name: Bin
-      url: https://bin.r4tio.dev
+      url: https://bin.r4tio.cat
       weight: 35
     - identifier: Upload
       name: Send
-      url: https://send.r4tio.dev
+      url: https://send.r4tio.cat
       weight: 40
     - identifier: PGP
       name: PGP
