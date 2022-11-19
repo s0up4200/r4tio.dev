@@ -69,8 +69,8 @@ params:
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "https://github.com/s0up4200/r4tio.cat/blob/main/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/s0up4200/r4tio.cat/tree/master/content"
+    Text: "Source code" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
