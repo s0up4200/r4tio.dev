@@ -1,4 +1,4 @@
-baseURL: "https://r4tio.cat"
+baseURL: "https://r4tio.dev"
 title: r4tio - A personal encyclopedia to servers, security and privacy
 theme: WonderMod
 copyright: '[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)'
@@ -37,13 +37,13 @@ params:
     safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: "r4tio.cat"
+    text: "r4tio.dev"
 #    icon: "/privsec.png"
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: r4tio.cat
+    title: r4tio.dev
     subtitle: "A personal encyclopedia to servers, security and privacy."
     buttons:
       - name: About
@@ -59,7 +59,7 @@ params:
     - name: discord
       url: "https://discordapp.com/users/913522309208371251"
     - name: email
-      url: "mailto:soup@r4tio.cat"
+      url: "mailto:soup@r4tio.dev"
     - name: rss
       url: /index.xml
 
@@ -69,7 +69,7 @@ params:
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "https://github.com/s0up4200/r4tio.cat/tree/master/content"
+    URL: "https://github.com/s0up4200/r4tio.dev/tree/master/content"
     Text: "Source code" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -115,11 +115,11 @@ menu:
       weight: 30
     - identifier: Hastebin
       name: Bin
-      url: https://bin.r4tio.cat
+      url: https://bin.r4tio.dev
       weight: 35
     - identifier: Upload
       name: Send
-      url: https://send.r4tio.cat
+      url: https://send.r4tio.dev
       weight: 40
     - identifier: PGP
       name: PGP

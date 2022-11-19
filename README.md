@@ -1,4 +1,4 @@
-# r4tio.cat
+# r4tio.dev
 A personal encyclopedia to servers, security and privacy.
 ---
 
