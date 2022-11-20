@@ -36,11 +36,6 @@ params:
   assets:
     disableHLJS: true
     disableFingerprinting: false
-    favicon: "/favicon.ico"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.png"
-    apple_touch_icon: "/apple-touch-icon.png"
-    safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
     text: "r4tio.dev"
@@ -99,7 +94,6 @@ outputs:
         - RSS
         - JSON # is necessary
 
-# Enable Chroma
 markup:
     highlight:
         style: dracula
@@ -109,8 +103,8 @@ markup:
 
 menu:
   main:
-    - identifier: Categories
-      name: Categories
+    - identifier: Posts
+      name: Articles
       url: /posts/
       weight: 10
     - identifier: Tags
@@ -126,7 +120,7 @@ menu:
       url: https://bin.r4tio.cat
       weight: 35
     - identifier: Upload
-      name: Send
+      name: Upload
       url: https://send.r4tio.cat
       weight: 40
     - identifier: PGP
@@ -154,5 +148,5 @@ privacy:
     enableDNT: true
     simple: false
   youtube:
-    disable: false
+    disable: true
     privacyEnhanced: true
