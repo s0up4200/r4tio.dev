@@ -50,8 +50,8 @@ params:
         url: about
       #- name: Privacy
       #  url: privacy
-      #- name: Donate
-      #  url: donate
+      - name: Donate
+        url: donate
 
   socialIcons:
     - name: github
