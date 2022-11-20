@@ -17,7 +17,9 @@ SSHFP presents a potential solution to this problem. This works by using the DNS
 
 First, you need to configure your domains with SSHFP records that allow the SSH keys on the servers to be identified. Fortunately, the ssh-keygen tool makes this a very simple process. On the server you wish to identify you simply need to run:
 
-`ssh-keygen -r $(hostname)`
+```text
+ssh-keygen -r $(hostname)
+```
 
 Provided you have your server's hostname set up correctly with the fully qualified domain name, you should see an output like this:
 
