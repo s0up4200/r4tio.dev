@@ -23,9 +23,9 @@ ssh-keygen -r $(hostname)
 
 Provided you have your server's hostname set up correctly with the fully qualified domain name, you should see an output like this:
 
-`mydomain.com IN SSHFP 1 1 b4049d10454f2f5cb74688b5be2843ee08a2add5`
+`mydomain.com IN SSHFP 3 1 b4049d10454f2f5cb74688b5be2843ee08a2add5`
 
-`mydomain.com IN SSHFP 2 1 f52df2cea30e6a435f3fdb4be70c72acdb73bfe0`
+`mydomain.com IN SSHFP 4 1 f52df2cea30e6a435f3fdb4be70c72acdb73bfe0`
 
 The structure can be read like this:
 
@@ -50,9 +50,10 @@ Two fingerprint types are defined in SSHFP. Each fingerprint type is represented
 
 ## Add to your DNS zone
 
-`mydomain.com IN SSHFP 1 1 b4049d10454f2f5cb74688b5be2843ee08a2add5`
-
-`mydomain.com IN SSHFP 2 1 f52df2cea30e6a435f3fdb4be70c72acdb73bfe0`
+| TYPE | HOSTNAME | ALGORITHM | TYPE | TARGET | TTL |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `SSHFP`| @ | `ed25519` | `SHA-256` | `f52df2cea30e6a435f3fdb4be70c72acdb73bfe0` | 3h
+| `SSHFP` | @ | `ecdsa` | `SHAH-256` | `b4049d10454f2f5cb74688b5be2843ee08a2add5` | 3h
 
 Once this is saved and your name server is serving these records, you can check for them by digging:
 
