@@ -34,7 +34,7 @@ Basically, `ssh-keygen -t ${key_type}-sk` will generate for us a token-backed ke
 
 To get started:
 
-```
+```text
 ssh-keygen -t ed25519-sk
 ```
 
@@ -42,7 +42,7 @@ This will generate a `id_ed25519_sk` private key and a `id_ed25519_sk.pub` publi
 
 You can also generate a **resident key** (referred to as _discoverable credential_ in the WebAuthn specification):
 
-```
+```text
 ssh-keygen -t ed25519-sk -O resident -O application=ssh:user1
 ```
 
@@ -58,13 +58,13 @@ Resident keys can be retrieved using `ssh-keygen -K` or `ssh-add -K` if you don'
 
 Next, transfer your public key over to the server (granted you have already access to it with a regular key pair):
 
-```
+```text
 ssh-copy-id -i ~/.ssh/id_ed25519_sk.pub user@server.domain.tld
 ```
 
 _Ta-da!_ But one last thing: we need to make sure the server supports this public key format in `sshd_config`:
 
-```
+```text
 PubkeyAcceptedKeyTypes ssh-ed25519,sk-ssh-ed25519@openssh.com
 ```
 
