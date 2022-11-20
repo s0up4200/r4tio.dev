@@ -11,21 +11,27 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  author: soup
-  # author: ["Me", "You"] # multiple authors
-  description: A practical approach to Privacy and Security
+  author: soup # ["Me", "You"] # multiple authors
+  title: "r4tio.dev"
+  description: A practical approach to privacy and security
   keywords: [Privacy, Security]
+  DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
-  images: ["/privsec.png"]
+
   ShowReadingTime: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowWordCount: true
-  ShowToc: true
-  ShowRssButtonInSectionTermList: true
-  ShowFullTextinRSS: true
   ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
 
   assets:
     disableHLJS: true
@@ -48,8 +54,8 @@ params:
     buttons:
       - name: About
         url: about
-      #- name: Privacy
-      #  url: privacy
+      - name: Articles  
+        url: posts
       - name: Donate
         url: donate
 
