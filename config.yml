@@ -123,7 +123,7 @@ menu:
       weight: 40
     - identifier: PGP
       name: PGP
-      url: https://github.com/s0up4200.gpg
+      url: https://r4tio.dev/soup.asc
       weight: 50
 
 privacy:
