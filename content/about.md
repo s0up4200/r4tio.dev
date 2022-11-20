@@ -31,8 +31,7 @@ I wanted to try out Hugo, and I needed some content to put in it.
 
 `$ whois r4tio.dev`
 
-Static HTML and CSS website powered by [Hugo](https://gohugo.io/).   
-A hardened theme called [hugo-WonderMod](https://github.com/Wonderfall/hugo-WonderMod) was chosen. Designed with strong CSP headers in mind - featuring removal of inline JavaScript and using pure CSS. WonderMod is a fork of an original theme called [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+Static HTML and CSS website powered by [Hugo](https://gohugo.io/) and a hardened theme called [hugo-WonderMod](https://github.com/Wonderfall/hugo-WonderMod). WonderMod is designed with strong CSP headers in mind. It features removal of inline JavaScript and using pure CSS. WonderMod is a fork of an original theme called [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
 ### Internet.nl report
 
