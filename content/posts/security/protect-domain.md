@@ -36,7 +36,7 @@ SPF records can be formatted to protect domains against attempted phishing attac
 
 `v=spf1 -all`
 
-    Note, SPF records are set directly on the domain itself, meaning they do not require a special subdomain.
+> Note, SPF records are set directly on the domain itself, meaning they do not require a special subdomain.
 
 Here is what the individual components of this record mean:
 
