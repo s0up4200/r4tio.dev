@@ -44,7 +44,7 @@ Here is what the individual components of this record mean:
 
 - The indicator `-all` tells the server what to do with non-compliant emails or any senders that are not explicitly listed in the SPF record. With this type of SPF record, no IP addresses or domains are allowed, so `-all` states that all non-compliant emails will be rejected. For this type of record, all emails are considered non-compliant because there are no accepted IP addresses or domains.
 
-## DKIM
+### DKIM
 
 DKIM records protect domains by ensuring emails were actually authorized by the sender using a public key and a private key. DKIM records store the public key that the email server then uses to authenticate that the email signature was authorized by the sender. For domains that do not send emails, the DKIM record should be configured without an associated public key. Below is an example:
 
@@ -59,7 +59,7 @@ v=DKIM1 sets the version number and tells the server that this record references
 
 - The `p value` helps authenticate emails by tying a signature to its public key. In this DKIM record, the p value should be empty because there is no signature/public key to tie back to.
 
-## DMARC
+### DMARC
 
 DMARC policies can also help protect domains that do not send emails by rejecting all emails that fail SPF and DKIM. In this case, all emails sent from a domain not configured to send emails would fail SPF and DKIM checks. Below is an example of how to format a policy this way:
 
