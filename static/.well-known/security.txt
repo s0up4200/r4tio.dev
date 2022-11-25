@@ -3,13 +3,14 @@ Hash: SHA256
 
 Contact: mailto:soup@r4tio.dev
 Contact: https://matrix.to/#/@noodles:matrix.r4tio.dev
-Expires: 2023-10-10T22:07:00.000Z
 Encryption: https://r4tio.dev/.well-known/pub-key.txt
+Encryption: openpgp4fpr:B3DC55A354602B8AEDCC0632C3F0DB9D1027D650
+Preferred-Languages: en
 Canonical: https://r4tio.dev/.well-known/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQSz3FWjVGAriu3MBjLD8NudECfWUAUCY3/fJgAKCRDD8NudECfW
-UHp1AQCpG2dd5R6i+zeV7GjNcxiXsNjPAxznZrQwA7PCxNMxBwD/WFXF3rcIhHod
-RA+0Ni8O/To5SbyEdS+vpkwAtFarkgE=
-=O2uh
+iHUEARYIAB0WIQSz3FWjVGAriu3MBjLD8NudECfWUAUCY4D6OQAKCRDD8NudECfW
+UHvnAQC+6pfoHAC6QgAJQ1+iN+LeJPqNMXGuwmVJh4XOL+be5gD9EDX2OrORaOB3
+9jcjfl7c2abPuU8S773q5Z6JVg5Szw0=
+=zMAN
 -----END PGP SIGNATURE-----
