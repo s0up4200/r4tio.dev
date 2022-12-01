@@ -58,7 +58,7 @@ params:
     - name: github
       url: "https://github.com/s0up4200"
     - name: matrix
-      url: "https://matrix.to/#/@noodles:matrix.r4tio.cat"
+      url: "https://matrix.to/#/@soup:matrix.r4tio.dev"
     - name: discord
       url: "https://discordapp.com/users/913522309208371251"
     - name: email
