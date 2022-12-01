@@ -67,6 +67,8 @@ Add the following line to the relevant hosts or globally:
 
 This means that it will accept a matching DNS entry for a server's SSH identity key every time. It's also valid to set this value to “ask” instead of “yes”. If you save and exit that file then the next time you attempt to connect to a server, SSH will attempt to identify it using SSHFP if possible before falling back to asking you to manually accept the host key.
 
+Setting `StrictHostKeyChecking yes` might also be needed in some operating systems.
+
 Note that if you want other people who are connecting to your server to benefit from SSHFP, you'll need to inform them to make this change to their local SSH configuration.
 
 Sources: [Medium](https://medium.com/20ms/how-to-authenticate-ssh-servers-with-sshfp-4f9e8023995a) and [Stackexchange](https://unix.stackexchange.com/questions/121880/how-do-i-generate-sshfp-records)
