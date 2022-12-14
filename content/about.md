@@ -4,7 +4,7 @@ date: 2022-11-18T20:21:06+01:00
 draft: false
 ---
 
-## Who dis?
+## Who am i?
 
 `$ whoami`
 
