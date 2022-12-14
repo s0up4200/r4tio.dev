@@ -19,10 +19,6 @@ I enjoy football and Fantasy Premier League.
 I'm helping maintaining the docs for [autobrr](https://autobrr.com) - the modern autodl-irssi replacement.
 I also try to help out whenever I can in various media/privsec related Discord and Matrix servers. It's not much.
 
-## People that I learn and take inspiration from
-
-In alphabetical order:`bp,brettpetch,gabe,kyles,liara,trash,ze0s`
-
 ## Why not just make a Github repo for this?
 
 I wanted to try out Hugo, and I needed some content to put in it.

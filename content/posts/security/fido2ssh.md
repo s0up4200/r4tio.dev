@@ -10,7 +10,7 @@ editPost:
   appendFilePath: false # to append file path to Edit link
 ---
 
-Passwordless authentication with OpenSSH keys has been the _de facto_ security standard for years. SSH keys are more robust since they're cryptographically sane by default, and are therefore resilient to most bruteforce atacks. They're also easier to manage while enabling a form of decentralized authentication (it's easy and painless to revoke them). So, what's the next step? And more exactly, why would one need something even better?
+Passwordless authentication with OpenSSH keys has been the _de facto_ security standard for years. SSH keys are more robust since they're cryptographically sane by default, and are therefore resilient to most bruteforce attacks. They're also easier to manage while enabling a form of decentralized authentication (it's easy and painless to revoke them). So, what's the next step? And more exactly, why would one need something even better?
 
 ## Why?
 
