@@ -53,7 +53,7 @@ Two fingerprint types are defined in SSHFP. Each fingerprint type is represented
 | TYPE | HOSTNAME | ALGORITHM | TYPE | TARGET | TTL |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `SSHFP`| @ | `ed25519` | `SHA-256` | `f52df2cea30e6a435f3fdb4be70c72acdb73bfe0` | 3h
-| `SSHFP` | @ | `ecdsa` | `SHAH-256` | `b4049d10454f2f5cb74688b5be2843ee08a2add5` | 3h
+| `SSHFP` | @ | `ecdsa` | `SHA-256` | `b4049d10454f2f5cb74688b5be2843ee08a2add5` | 3h
 
 Once this is saved and your name server is serving these records, you can check for them by digging:
 
