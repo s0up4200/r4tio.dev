@@ -13,4 +13,3 @@ A personal encyclopedia to servers, security and privacy.
 
 - Run `git submodule update --merge` to update the [WonderMod theme](https://github.com/Wonderfall/hugo-WonderMod) to the version specified in this repo
   - Run `git submodule update --remote --merge` to update to the upstream master branch of WonderMod
-- Run `./external-blogs.sh` to pull the latest versions of the articles from [wonderfall.dev](https://wonderfall.dev) and place them in `/content`
