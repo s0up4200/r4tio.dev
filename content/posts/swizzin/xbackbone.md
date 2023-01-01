@@ -2,7 +2,7 @@
 title: "Xbackbone"
 date: 2022-11-19T01:54:35+01:00
 draft: false
-author: beeboo
+author: brett
 tags: ["swizzin", "nginx", "xbackbone"]
 ---
 
